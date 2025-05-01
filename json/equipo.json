@@ -1,0 +1,56 @@
+[
+    {
+        "nombre": "Gabi Guimaraes",
+        "numero": 1,
+        "posicion": "OH",
+        "imagen": "../../img/equipo/gabi.jpg"
+    },
+    {
+        "nombre": "Monica DeGennaro",
+        "numero": 10,
+        "posicion": "L",
+        "imagen": "../../img/equipo/moki.jpg"
+    },
+    {
+        "nombre": "Joanna Wołosz",
+        "numero": 14,
+        "posicion": "S",
+        "imagen": "../../img/equipo/wolosz.jpg"
+    },
+    {
+        "nombre": "Sarah Fahr",
+        "numero": 19,
+        "posicion": "C",
+        "imagen": "../../img/equipo/fahr.jpg"
+    },
+    {
+        "nombre": "Cristina Chirichella",
+        "numero": 18,
+        "posicion": "C",
+        "imagen": "../../img/equipo/chi.jpg"
+    },
+    {
+        "nombre": "Isabelle Haak",
+        "numero": 11,
+        "posicion": "O",
+        "imagen": "../../img/equipo/haak.jpg"
+    },
+    {
+        "nombre": "Marina Lubian",
+        "numero": 9,
+        "posicion": "C",
+        "imagen": "../../img/equipo/lubian.jpg"
+    },
+    {
+        "nombre": "Zhu Ting",
+        "numero": 4,
+        "posicion": "OH",
+        "imagen": "../../img/equipo/zhu.jpg"
+    },
+    {
+        "nombre": "Daniele Santarelli",
+        "numero": "",
+        "posicion": "DT",
+        "imagen": "../../img/equipo/dan.jpg"
+    }
+]

@@ -35,5 +35,13 @@ header{
 
 .navbar-nav{
     justify-content: space-between;
-    width: 40%;
+    width: 60%;
 }
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    justify-content: space-between;
+}
+
