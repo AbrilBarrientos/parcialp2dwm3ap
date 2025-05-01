@@ -1,0 +1,39 @@
+header{
+    margin: 0;
+    --bs-gutter-x: 0;
+}
+
+/* .productos{
+    pad
+} */
+
+.productos .row{
+    max-width: 100%;
+}
+
+
+.banner-header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('./../img/banner1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.collapse{
+    font-size: 1.2em;
+    justify-content: end;
+}
+
+.navbar-nav{
+    justify-content: space-between;
+    width: 40%;
+}
