@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Caramel Machiatto",
+        "precio": 7000,
+        "imagen": "img/productos/caramel-machiato.webp",
+        "descripcion": "Combinación de leche cremosa, vainilla e intenso espresso, decorado con una rejilla de sirope de caramelo",
+        "categoria": "Bebidas calientes",
+        "stock": true,
+        "es_vegano": false
+    },
+    {
+        "nombre": "Frappuccino Fresa",
+        "precio": 7300,
+        "imagen": "img/productos/fresa.webp",
+        "descripcion": "Dulce Combinación de Fresa y Crema Cubierta con Nata Montada",
+        "categoria": "Bebidas frías",
+        "stock": true,
+        "es_vegano": true
+    },
+    {
+        "nombre": "Frappuccino Caramelo",
+        "precio": 7300,
+        "imagen": "img/productos/caramel-helado.webp",
+        "descripcion": "Caramelo Starbucks y Leche Batidos con Hielo y Recubiertos con Nata Montada y una Espiral de Caramelo",
+        "categoria": "Bebidas frías",
+        "stock": false,
+        "es_vegano": false
+    },
+    {
+        "nombre": "Frappuccino Java Chip",
+        "precio": 7300,
+        "imagen": "img/productos/java-chip.webp",
+        "descripcion": "Vainilla sin azúcar y leche descremada manchada con espresso, finalizada con caramelo ( infusionado con la bebida).",
+        "categoria": "Bebidas frías",
+        "stock": true,
+        "es_vegano": false
+    },
+    {
+        "nombre": "Muffin Choco Chips",
+        "precio": 5800,
+        "imagen": "img/productos/muffin.webp",
+        "descripcion": "Esponjoso y húmedo muffin de vainilla con chips de chocolate.",
+        "categoria": "Pastelería",
+        "stock": true,
+        "es_vegano": true
+    },
+    {
+        "nombre": "Cookies & Cream Frappuccino",
+        "precio": 7300,
+        "imagen": "img/productos/cookies-cream.webp",
+        "descripcion": "Salsa de Mocha Blanco y Frappuccino Chips mezclados con leche y hielo, cubiertos con crema batida y espolvoreadas de Chocolate Cookie Crumbles.",
+        "categoria": "Bebidas frías",
+        "stock": true,
+        "es_vegano": false
+    },
+    {
+        "nombre": "Roll Canela",
+        "precio": 5800,
+        "imagen": "img/productos/roll-canela.webp",
+        "descripcion": "Suave masa horneada cada día en nuestras tiendas con canela y una espiral de glaseado.",
+        "categoria": "Pastelería",
+        "stock": false,
+        "es_vegano": false
+    },
+    {
+        "nombre": "Tarta de Zanahoria",
+        "precio": 5000,
+        "imagen": "img/productos/carrot-cake.webp",
+        "descripcion": "Tarta de bizcocho de zanahoria con cobertura de queso crema.",
+        "categoria": "Pastelería",
+        "stock": true,
+        "es_vegano": false
+    }
+]

@@ -1,47 +1,235 @@
-header{
+:root {
+    --main-color: #007147;
+    --background-color: #004643;
+    --p: #abd1c6;
+    --accent-color: #a0d6a0;
+    --tertiary: #e16162;
+    --text-color: #ffffff;
+    --secondary: #abd1c6;
+    --btn: #f9bc60;
+    --btn-font: #001e1d;
+    --form-bg: #ffffff;
+    --form-border: #ccc;
+    --btn-hover: #005c3b;
+    --btn-alt: #00754a;
+    --carousel-bg: #001e1d85;
+}
+
+* {
     margin: 0;
-    --bs-gutter-x: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
-/* .productos{
-    pad
-} */
-
-.productos .row{
-    max-width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
-
-.banner-header {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
-    ), url('./../img/banner1.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    position: relative;
+.producto {
+    border: 1px solid var(--form-border);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
 }
 
-.navbar-toggler{
+nav {
+    background: var(--main-color);
+}
+
+.navbar {
+    padding: 1em 0;
+}
+
+.text-danger {
+    margin-bottom: 0 !important;
+}
+
+.card .btn {
+    margin: 1em auto;
+}
+
+.alert {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    text-align: end;
+}
+
+.navbar-brand img {
+    width: 100px !important;
+}
+
+.navbar-toggler {
     border: none;
 }
 
-.collapse{
-    font-size: 1.2em;
-    justify-content: end;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.navbar-nav{
-    justify-content: space-between;
-    width: 60%;
+.row {
+    margin: 0;
 }
 
-.card .card-body{
-    display: flex;
+nav ul li a {
+    color: var(--text-color) !important;
+}
+
+footer {
+    background-color: var(--main-color);
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.btn {
+    width: fit-content;
+    margin: 0 auto;
+    padding: .7em 2em;
+    border: none;
+    color: var(--btn-font) !important;
+    background: var(--btn) !important;
+    border-radius: 50px !important;
+}
+
+p {
+    margin: 0;
+}
+
+section.bg-light {
+    border-radius: 10px;
+}
+
+.carousel-item {
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+        rgba(26, 31, 28, 0.95) 0%,
+        transparent 30%,
+        transparent 70%,
+        rgba(16, 19, 17, 0.95) 100%);
+    z-index: 1;
+}
+
+.carousel-caption {
+    width: 100%;
+    background-color: var(--carousel-bg);
+    position: absolute;
+    z-index: 2;
+    color: var(--text-color);
+    display: flex !important;
     flex-direction: column;
-    text-align: center !important;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    inset: 0;
+    padding: 1rem;
+    font-size: 1.3em;
 }
 
+.carousel-caption p {
+    margin-top: 10px;
+    width: 50%;
+}
+
+.card-text {
+    color: var(--main-color);
+    margin: 1em 0;
+    font-weight: 700;
+}
+
+.navbar-collapse i {
+    margin-right: .5em;
+}
+
+.alumno {
+    font-size: 1.3em;
+    padding: 3em 0;
+    height: 100%;
+}
+
+#producto-precio {
+    margin-bottom: .5em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--main-color) !important;
+}
+
+form {
+    background-color: var(--form-bg);
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--form-border);
+}
+
+form button {
+    background-color: var(--btn-alt);
+    color: var(--text-color);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--btn-hover);
+}
+
+.desc {
+    margin: 1em .5em;
+    text-align: start;
+}
+
+@media (max-width: 768px) {
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption a.btn {
+        margin-top: 1em !important;
+        font-size: 0.9rem;
+        padding: 0.5rem 3rem;
+    }
+}
