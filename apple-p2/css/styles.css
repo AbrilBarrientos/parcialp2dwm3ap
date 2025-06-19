@@ -1,0 +1,215 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #ffffff !important;
+    font-size: 0.8rem !important;
+    color: #333336 !important;
+}
+
+h1.titulo{
+    display:none;
+}
+
+/*NAVBAR*/
+header nav.navbar{
+    height: 3rem;
+    background-color: #6e6e7307 !important;
+}
+header nav div#navbarNav{
+    justify-content: center;
+}
+
+/*LINKS*/
+a{
+    color: #333336 !important;
+    text-decoration: none;
+}
+a:hover{
+    color: black !important;
+}
+
+/*INICIO*/
+div.container-inicio section.header{
+    background-image: url(../assets/imagenes/inicio/header-img-iphones.jpg);
+    background-size: cover;
+    height: 30rem;
+    background-position: bottom;
+    border-radius: 1rem;
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+}
+div.container-inicio section div#ipads-colores{
+    background-image: url(../assets/imagenes/inicio/ipads-colores.jpg);
+    background-size: cover;
+    height: 40rem;
+    background-position: bottom;
+    border-radius: 1rem;
+    width: 48%;
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+}
+div.container-inicio section div#ipads-colores h3{
+    padding: 3rem 3rem 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+div.container-inicio section div#ipads-colores a{
+    background-color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+div.container-inicio section div#ipads-colores a:hover{
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);  
+}
+div.container-inicio section div#descuento-estudiantes{
+    background-image: url(../assets/imagenes/inicio/descuento-estudiantes.jpg);
+    background-size: cover;
+    height: 40rem;
+    background-position: bottom;
+    border-radius: 1rem;
+    width: 48%;
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+}
+div.container-inicio section div#descuento-estudiantes h3{
+    padding: 3rem 3rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+div.container-inicio section div#descuento-estudiantes p{
+    border-radius: 1rem;
+    text-align: center;
+}
+div.container-inicio section div#descuento-estudiantes a{
+    background-color: rgb(238, 130, 58)!important;
+    color: white !important;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+div.container-inicio section div#descuento-estudiantes a:hover{
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);  
+}
+div.container-inicio section#macbook-promo{
+    background-image: url(../assets/imagenes/inicio/macbook-promo.jpg);
+    background-size: cover;
+    height: 40rem;
+    background-position: bottom;
+    border-radius: 1rem;
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+}
+div.container-inicio section#macbook-promo h3{
+    font-size: 3rem;
+}
+div.container-inicio section#macbook-promo a{
+    background-color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+div.container-inicio section#macbook-promo a:hover{
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+}
+div.container-inicio section.categorias div div.card{
+    margin-right: 1rem;
+    text-align: center;
+    border: none !important;
+}
+div.container-inicio section.categorias div div.card img{
+    margin: 2rem 0;
+}
+div.container-inicio section.categorias div div.card div.card-body a.btn{
+    color: #232325 !important;
+    background-color: transparent !important;
+    border: none !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+div.container-inicio section.categorias div div.card div.card-body a.btn:hover{
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+/*CONTACTO*/
+div.container-contacto img{
+    box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -webkit-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+    -moz-box-shadow: 1px 5px 21px -6px rgba(92,92,92,0.46);
+}
+div.container-contacto div form > div.d-flex.justify-content-between > div{
+    width: 49%;
+}
+div.container-contacto div form input.btn{
+    width: 100%;
+    background-color: #202022 !important;
+    border: none !important;
+}
+div.container-contacto div form input.btn:hover{
+    background-color: rgb(24, 24, 24) !important;
+    color: white !important;
+}
+div.container-contacto > div{
+    width: 80%;
+    margin: 2rem auto;
+}
+div.container-contacto section{
+    width: 80%;
+    margin: 2rem auto;
+}
+div.container-contacto section.d-flex{
+    align-items: center !important;
+}
+
+/*FOOTER*/
+footer{
+    padding: 3rem;
+    background-color: #6e6e7307;
+}
+footer > div{
+    width: 80rem;
+    align-items: center;
+    margin: 0 auto;
+}
+footer div ul{
+    padding-left: 0;
+    margin-right: 3rem;
+}
+footer div ul ul.submenu{
+    padding-left: 1rem !important;
+}
+footer div ul ul.submenu li a{
+    color: #6e6e73 !important;
+}
+footer div ul ul.submenu li a:hover{
+    color: #333336 !important;
+}
+footer div ul li{
+    list-style: none
+}
+footer div#footer-detalles{
+    color: #6e6e73b9 !important;
+    border-top: 0.1rem solid #6e6e7348;
+}
+footer div#footer-detalles p{
+    padding-top: 1rem;
+}
